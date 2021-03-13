@@ -33,7 +33,7 @@ If you encounter specific setup items I haven't mentioned here let me know, and 
 # How this script works
 The video I've put on youtube will go into more depth, but to summarize:
 
-We are iterating through a 'loop' once for each bird. The loop starts with a 'seed number' that is used to deterministically generate pseudo-random numbers. I say 'deterministically' and 'pseudo-random' because from the same seed number the 'random' output will always be the same. It's not true random in a security or mathematical sense. I used the most recent ETH block at the time as my seed number - 11981207.
+We are iterating through a 'loop' once for each bird. The loop starts with a 'seed number' that is used to deterministically generate pseudo-random numbers. I say 'deterministically' and 'pseudo-random' because from the same seed number the 'random' output will always be the same. It's not truly random in a security or mathematical sense. I used the most recent ETH block at the time as my seed number - 11981207.
 
 There is then a 'chain' of additional random numbers generated that are used to define all of the various traits of the birds. Many of the attributes generate a random number between 1-1000 and use that for some sort of logical statement (e.g. to decide beak color). 
 
