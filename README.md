@@ -55,5 +55,8 @@ Then it goes right back to the top of the loop, and does it again for the next b
 I sincerely hope this inspires someone to learn a new skill, take up coding, or generally expand their horizons! I won't profess to be a professional coder, but I am a technologist in my day job and have found it to be a fulfilling and rewarding life path.  This BitBirds project has been a joy to be involved in. The community that has popped up around it already has been inspiring, and I'm excited to see it grow in the years to come.
 
 If would like to show your thanks for this shared asset I'd encourage you to plant some trees! https://onetreeplanted.org/collections/all
+
 If you feel absolutly compelled to send ETH or NFTs to me directly, please know that it is not necessary, but the BitBirds project hardware wallet address is: 0x1fd146a5e6152c5ACd3A013fBC42A243e4DfCe63
+
+Thanks for everything!
 
