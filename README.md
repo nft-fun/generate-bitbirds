@@ -28,7 +28,7 @@ NumPy - python library to work with arrays - installed via terminal/command-line
 
 I don't *think* I had to install the 'random' library included in the script to use the number randomization feature but might have.
 
-As you're setting this up please reach out to me on discord or twitter if you encounter specifics not mentioned in here and I'll add them for posterity.
+If you encounter specific setup items I haven't mentioned here let me know, and I'll add them.
 
 # How this script works
 The video I've put on youtube will go into more depth, but to summarize:
