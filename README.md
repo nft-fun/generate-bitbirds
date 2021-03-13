@@ -7,7 +7,7 @@ Please don't be an asshole. This is, like, grassroots and stuff.
 Specifically I'm asking you in good faith not to directly knock off the BitBirds project, or otherwise screw me over for sharing this. Do not use this for anything hateful or discriminatory.
 
 # Setting the expectations
-As I've found to be the case with many templatized assets, folks new to this may struggle with setting up the dependencies. Often in technology, setting up a pre-requisite like PIP (a python asset installation tool) isn't something the developer thinks about in a given project because it has been on their computer for months or years. 
+Folks that are new to programming may struggle to set up the dependencies. Often in technology, setting up a pre-requisite like PIP (a python asset installation tool) isn't something the developer thinks about in a given project because it has been on their computer for months or years. 
 
 Even having set up a number of dependencies just a few weeks ago for this project, I don't remember exactly how I worked through the various error messages. When you try to run the script, if it fails there will often be some useful nugget of information buried in the cryptic response blob. As a rule for life - Google is your friend, and others have probably encountered your exact error message if you look long enough. When asking questions on discord, stackoverflow, or wherever, try to tell very specifically (1) what you've tried (2) what you expect as the result and (3) what issue/error you're encountering. That'll get a lot more useful feedback than just shouting HALP.
 
