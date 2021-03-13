@@ -45,7 +45,7 @@ The bird images are 24x24 arrays of variables, representing every pixel in the f
 
 The script uses another 1-1000 'random' number to decide which of the bird type templates to use. Basic bird is most common, at about 75% probability. Jay has a 15% probability, woodpecker has 6%, eagle has 3.5%, and cockatoo has half a percent probability.
 
-From there, you're just about home free. The final bit of the loop re-sizes the generated bird from 24 px x 24 px up to 480 px x 480 px. It generates the image file path (dynamically using the `os` library), and saves the image into the folder `bird_images`.
+From there, you're just about home free. The final bit of the loop re-sizes the generated bird from 24x24 pixels up to 480x480 pixels. It generates the image file path (dynamically, wherever you have the folder using the `os` library), and saves the image into the included folder `bird_images`.
 
 Then it goes right back to the top of the loop, and does it again for the next bird, until the number of defined loops is completed. 
 
