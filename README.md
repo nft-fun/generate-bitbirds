@@ -5,7 +5,7 @@ This is published under MIT license, which means you can do whatever you want wi
 Please don't be an asshole... this is, like, grassroots and stuff. Specifically I'm asking you in good faith not to directly knock off the BitBirds project, or otherwise try to screw me over for sharing this. Do not use this for anything hateful or discriminatory.
 
 # Setting the expectations
-As I've found to be the case with many templatized assets, folks new to this may struggle most with setting up the dependencies. Often in technology, setting up something like PIP (a python asset installation tool) isn't something the developer thinks about in a given project because it has been on their computer for months or years. 
+As I've found to be the case with many templatized assets, folks new to this may struggle with setting up the dependencies. Often in technology, setting up something like PIP (a python asset installation tool) isn't something the developer thinks about in a given project because it has been on their computer for months or years. 
 
 Even having set up a number of dependencies just a few weeks ago for this project, I don't remember exactly how I worked through the various error messages. When you try to run the code if it fails there will often be some useful nugget of an error code buried in the cryptic response blob that will lead you to the issue. As a rule for life - Google is your friend, and others have probably encountered your exact error message if you look long enough. When asking questions on discord, stackoverflow, or wherever try to tell very specifically what you've tried, what you expect as the result, and what issue you're encountering. That'll get a lot more useful feedback than just shouting HALP.
 
