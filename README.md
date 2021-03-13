@@ -18,13 +18,15 @@ Python 3 (default on my mac was python 2.7)
 
 PIP - an installation mechanism for python assets. 
 
-IIRC I needed to use some special command with python 3 to use pip as an installation mechanism for the items below- perhaps 'pip3 install ...' rather than 'pip install ...' seen in a lot of documentation?
+IIRC I needed to use some special command with python 3 to use pip as an installation mechanism for the items below- perhaps 'pip3 install ...' rather than 'pip install ...'?
 
 Pillow - asset to generate images - installed with pip
 
 NumPy - asset to work with arrays - installed with pip
 
 I don't *Think* I had to install 'random' to use the number randomization but might have.
+
+As you're setting this up please reach out to me on discord or twitter if you encounter specifics not mentioned in here and I'll add them for posterity.
 
 # How this script works
 The video I've put on youtube will go into more depth, but to summarize:
