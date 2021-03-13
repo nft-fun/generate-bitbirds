@@ -12,11 +12,11 @@ As I've found to be the case with many templatized assets, folks new to this may
 Even having set up a number of dependencies just a few weeks ago for this project, I don't remember exactly how I worked through the various error messages. When you try to run the script, if it fails there will often be some useful nugget of information buried in the cryptic response blob. As a rule for life - Google is your friend, and others have probably encountered your exact error message if you look long enough. When asking questions on discord, stackoverflow, or wherever, try to tell very specifically (1) what you've tried (2) what you expect as the result and (3) what issue/error you're encountering. That'll get a lot more useful feedback than just shouting HALP.
 
 # Dependencies
-From memory the things I needed to setup were:
+The dependenices were all installed with the terminal/command line. There is documentation abound about terminal generally, and these tools specifically, but unfortunately I don't have the pages that I used saved. From memory the things I needed to setup were:
 
 Python 3 (default on my mac was python 2.7)
 
-PIP - an installation mechanism for python assets. 
+PIP - a command-line installation mechanism for python assets. 
 
 IIRC I needed to use some special command with python 3 to use pip as an installation mechanism for the items below- perhaps `pip3 install ...` rather than `pip install ...`?
 
