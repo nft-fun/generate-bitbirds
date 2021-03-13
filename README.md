@@ -50,8 +50,8 @@ From there, you're just about home free. The final bit of the loop re-sizes the 
 Then it goes right back to the top of the loop, and does it again for the next bird, until the number of defined loops is completed. 
 
 # Wrap up
-I really hope this inspires someone to take up coding and expand their horizons! I certainly wouldn't profess to be a professional coder, but I am a technologist in my day job and have found it a fulfilling and rewarding life path.  Looking more specifically - I would go so far as to say this BitBirds project has been a life changing one for me. The community that has popped up around it already has been inspiring and I'm excited to see it grow in the years to come.
+I sincerely hope this inspires someone to learn a new school, take up coding, or generally expand their horizons! I won't profess to be a professional coder, but I am a technologist in my day job and have found it to be a fulfilling and rewarding life path.  This BitBirds project has been a joy to be involved in. The community that has popped up around it already has been inspiring, and I'm excited to see it grow in the years to come.
 
 If would like to show your thanks for this shared asset I'd encourage you to plant some trees! https://onetreeplanted.org/collections/all
-If you feel absolutly compelled to send ETH or NFTs to me directly, please know that it is not necessary, but the BitBirds hardware wallet address is: 0x1fd146a5e6152c5ACd3A013fBC42A243e4DfCe63
+If you feel absolutly compelled to send ETH or NFTs to me directly, please know that it is not necessary, but the BitBirds project hardware wallet address is: 0x1fd146a5e6152c5ACd3A013fBC42A243e4DfCe63
 
