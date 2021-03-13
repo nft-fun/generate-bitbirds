@@ -41,7 +41,7 @@ Interestingly, the way I've used this random-number chain seems to have resulted
 - Eye color looks at a random number between 1-1000 and if it's 47 or less, will give the bird crazy eyes. Crazy eyes always have the same pupil color (154, 0, 0) and then generate a random color for the 'white of the eye,' in the same way the head and throat color are generated.
 - Beak color is determined by an evaluation of another 1-1000 'random' number. Grey is most common, gold is also common, red is rare, and black is very rare.
 
-The bird images are 24x24 arrays of variables, representing every pixel in the final image. There are four different arrays in the script for each type of bird. I've used variables with two letters for each different color, so as to keep the 'matrix' of pixel variables easy to see and work with. 
+The bird images are 24x24 arrays of variables, representing every pixel in the final image. There are four different arrays in the script for each type of bird. I've used variables with two letters for each type of pixel (e.g. outline `ol`, head color `hd`, beak color `bk`), so as to keep the 'matrix' of pixel variables easy to see and work with. 
 
 The script uses another 1-1000 'random' number to decide which of the bird type templates to use. Basic bird is most common, at about 75% probability. Jay has a 15% probability, woodpecker has 6%, eagle has 3.5%, and cockatoo has half a percent probability.
 
