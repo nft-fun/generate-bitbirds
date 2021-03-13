@@ -30,7 +30,8 @@ As you're setting this up please reach out to me on discord or twitter if you en
 
 # How this script works
 The video I've put on youtube will go into more depth, but to summarize:
-We are iterating through a 'loop' for each bird. The loop starts with a 'seed number' that is used to deterministically generate pseudo-random numbers. I say deterministically and pseudo random because from the same seed number the 'random' output will always be the same. 
+
+We are iterating through a 'loop' once for each bird. The loop starts with a 'seed number' that is used to deterministically generate pseudo-random numbers. I say deterministically and pseudo-random because from the same seed number the 'random' output will always be the same. It's not true random in a security or mathematical sense.
 
 There is then a 'chain' of additional random numbers generated from each other that are used to define all of the variables about the birds. Many of the attributes generate a random number between 1-1000 and use that for a logical statement.
 
