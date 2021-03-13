@@ -20,9 +20,9 @@ PIP - a command-line installation mechanism for python assets.
 
 IIRC I needed to use some special command with python 3 to use pip as an installation mechanism for the items below- perhaps `pip3 install ...` rather than `pip install ...`?
 
-Pillow - asset to generate images - installed via terminal/command-line with PIP
+Pillow - python library to generate images - installed via terminal/command-line with PIP
 
-NumPy - asset to work with arrays - installed via terminal/command-line with PIP
+NumPy - python liibrary to work with arrays - installed via terminal/command-line with PIP
 
 I don't *think* I had to install the 'random' library included in the script to use the number randomization feature but might have.
 
