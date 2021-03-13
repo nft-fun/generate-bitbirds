@@ -2,7 +2,7 @@
 # Intro
 This is published under MIT license, which means you can do whatever you want with it - entirely at your own risk.
 
-Please don't be an asshole... this is, like, grassroots and stuff. 
+Please don't be an asshole. This is, like, grassroots and stuff. 
 
 Specifically I'm asking you in good faith not to directly knock off the BitBirds project, or otherwise screw me over for sharing this. Do not use this for anything hateful or discriminatory.
 
