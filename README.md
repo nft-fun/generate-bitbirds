@@ -33,7 +33,7 @@ IIRC I needed to use some special command with python 3 to use pip as an install
 If you encounter specific setup items I haven't mentioned here let me know, and I'll add them.
 
 # How this script works
-The video I've put on youtube will go into more depth, but to summarize:
+The [video](https://youtu.be/06olOfNxPyk) I've put on YouTube complements this overview. 
 
 We are iterating through a 'loop' once for each bird. The loop starts with a 'seed number' that is used to deterministically generate pseudo-random numbers. I say 'deterministically' and 'pseudo-random' because from the same seed number the 'random' output will always be the same. It's not truly random in a security or mathematical sense. I used the most recent ETH block at the time as my seed number - 11981207.
 
