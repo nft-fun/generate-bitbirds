@@ -3,9 +3,16 @@
 # https://pillow.readthedocs.io/en/stable/installation.html
 from PIL import Image
 
+# library to generate a CSV file
 import csv
+
+# library to match RGB values to the nearest named color
 import webcolors
+
+# library to make HTTP calls (to OpenSea API)
 import requests
+
+# library to pause execution (for OpenSea API throttle)
 import time
 # import json
 
@@ -20,6 +27,7 @@ import os
 from random import seed
 from random import randint
 
+# lor color matching
 from webcolors import CSS3_HEX_TO_NAMES
 
 # gets path to be used in image creation mechanism, using os
@@ -29,10 +37,11 @@ dirname = os.path.dirname(__file__)
 # the original 24x24 pixel image will be expanded to these dimensions
 dimensions = 480, 480
 
+# prepares CSV file to be created, defines delimiter, and columns
 with open((dirname + '/data/birds.csv'), 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=';',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    writer.writerow( ['Number'] + ['Full match'] + ['OpenSea name'] + ['Name match'] + ['Gen-script type'] + ['OpenSea type'] + ['Type match'] + ['Gen-script eyes'] + ['OpenSea eyes'] + ['Eye match'] + ['Eye color(if crazy)'] + ['Crazy eye actual'] + ['Crazy eye closest'] + ['Gen-script beak'] + ['OpenSea beak'] + ['Beak match'] + ['Main head color'] + ['Exact HTML/CSS head color'] + ['Closest head color'] + ['Secondary color'] + ['Exact HTML/CSS secondary color'] + ['Closest secondary color'])
+    writer.writerow( ['Number'] + ['Full match'] + ['OpenSea name'] + ['Name match'] + ['Gen-script type'] + ['OpenSea type'] + ['Type match'] + ['Gen-script eyes'] + ['OpenSea eyes'] + ['Eye match'] + ['Eye color(if crazy)'] + ['Crazy eye actual'] + ['Crazy eye closest'] + ['Gen-script beak'] + ['OpenSea beak'] + ['Beak match'] + ['Main head color'] + ['Exact HTML/CSS head color'] + ['Closest head color'] + ['Secondary color'] + ['Exact HTML/CSS secondary color'] + ['Closest secondary color'] + ['Description'])
  
     # tells how many times to iterate through the following mechanism
     # which equals the number of birds
@@ -40,7 +49,7 @@ with open((dirname + '/data/birds.csv'), 'w', newline='') as csvfile:
     # for x in range(0-200) 
     # would generate 201 birds numbered 0-200
     # for x in range(0, 1500):
-    for x in range(0, 1500):
+    for x in range(0, 100):
         print('x: ' + str(x))
 
         if x != 423:
@@ -52,15 +61,15 @@ with open((dirname + '/data/birds.csv'), 'w', newline='') as csvfile:
             b=11981207
             seed(x+b)
 
-            #head color - randomly generate each number in an RGB color
+            # head color - randomly generate each number in an RGB color
             hd1 = randint(0, 256)
             hd2 = randint(0, 256)
             hd3 = randint(0, 256)
             hd = (hd1, hd2, hd3)
             # hd = (0, 0, 0)
 
-
-            #  Fucking legend!!! https://www.semicolonworld.com/question/58066/convert-rgb-color-to-english-color-name-like-39-green-39-with-python
+            # gets closest named color from head RGB value
+            # borrowed from this fucking legend!!! https://www.semicolonworld.com/question/58066/convert-rgb-color-to-english-color-name-like-39-green-39-with-python
             def closest_colour(requested_colour):
                 min_colours = {}
                 for key, name in webcolors.CSS3_HEX_TO_NAMES.items():
@@ -94,6 +103,7 @@ with open((dirname + '/data/birds.csv'), 'w', newline='') as csvfile:
             th3 = randint(0, 256)
             th = (th1, th2, th3)
 
+            # gets closest named color from throat/secondary RGB value
             def closest_colour(requested_colour):
                 min_colours = {}
                 for key, name in webcolors.CSS3_HEX_TO_NAMES.items():
@@ -136,6 +146,7 @@ with open((dirname + '/data/birds.csv'), 'w', newline='') as csvfile:
                 crazy_color = ew
                 ey = (154, 0, 0)
 
+                # gets closest named color from crazy eye RGB value
                 def closest_colour(requested_colour):
                     min_colours = {}
                     for key, name in webcolors.CSS3_HEX_TO_NAMES.items():
@@ -352,17 +363,22 @@ with open((dirname + '/data/birds.csv'), 'w', newline='') as csvfile:
             imgname = dirname + '/bird_images/' + (str(x)) + '.png'
             new_image.save(imgname)
 
+            # pauses to not over-query OpenSea API
             time.sleep(0.6)
 
+            # deals with BitBird 423 being missed from the mintin process
             if x > 422:
                 offset = x-1
             else:
                 offset = x
             print('offset :' + str(offset))
 
+            # calls the opensea API with the requests library, one bird at a time 
+            # with the offset matching (roughly) the iteration number of the bird generation loop
             r = requests.get('https://api.opensea.io/api/v1/assets?collection=bit-birds&order_direction=asc&offset=' + (str(offset)) + '&limit=1')
             jsonResponse = r.json()
             http_response = r.status_code
+            # pulls specific data points out of the json response from the OpenSea API
             name = jsonResponse['assets'][0]['name']
             description = jsonResponse['assets'][0]['description']
 
@@ -370,6 +386,7 @@ with open((dirname + '/data/birds.csv'), 'w', newline='') as csvfile:
             print('Name: ' + name)
             print('Description: ' + str(description))
 
+            # handles the OpenSea trait responses, their order depends on rarity of trait so order is unpredictable
             traits = jsonResponse['assets'][0]['traits']
             length = len(traits)
             # print('Traits:')
@@ -391,6 +408,7 @@ with open((dirname + '/data/birds.csv'), 'w', newline='') as csvfile:
             print('hd: ' + str(hd))
             print('th: ' + str(th))
 
+            # checks all of the TRUE/FALSE generated vs. OpenSea match columns
             if name == 'BitBird ' + str(x):
                 name_match = True
             else:
@@ -411,18 +429,19 @@ with open((dirname + '/data/birds.csv'), 'w', newline='') as csvfile:
             else:
                 beak_match = False
 
-
+            # checks whether every evaluated comparison is a match
             if type_match == True and eye_match == True and beak_match == True and name_match == True:
                 full_match = True
             else:
                 full_match = False
 
-
+            # adds a row to the CSV file
             row = x
             print('row :' + str(row))
-            writer.writerow([row, full_match, name, name_match, p, os_type, type_match, eyes, os_eyes, eye_match, crazy_color, ew_actual_name, ew_closest_name, beak, os_beak, beak_match, hd, hd_actual_name, hd_closest_name, th, th_actual_name, th_closest_name])
+            writer.writerow([row, full_match, name, name_match, p, os_type, type_match, eyes, os_eyes, eye_match, crazy_color, ew_actual_name, ew_closest_name, beak, os_beak, beak_match, hd, hd_actual_name, hd_closest_name, th, th_actual_name, th_closest_name, str(description)])
             print('----------------------')
         else:
+            # a leftover from testing
             print('----------------------')
 
 
