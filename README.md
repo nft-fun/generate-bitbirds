@@ -58,7 +58,7 @@ I sincerely hope this inspires someone to learn a new skill, take up coding, or 
 
 If would like to show your thanks for this shared asset I'd encourage you to plant some trees! https://onetreeplanted.org/collections/all
 
-If you feel absolutly compelled to send ETH or NFTs to me directly, please know that it is not necessary, but the BitBirds project hardware wallet address is: 0x1fd146a5e6152c5ACd3A013fBC42A243e4DfCe63
+If you feel absolutely compelled to send ETH or NFTs to me directly, please know that it is not necessary, but the BitBirds project hardware wallet address is: 0x1fd146a5e6152c5ACd3A013fBC42A243e4DfCe63
 
 Thanks for everything!
 
