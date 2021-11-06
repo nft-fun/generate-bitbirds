@@ -1,6 +1,4 @@
 import requests
-import time
-import json
 
 r = requests.get('https://api.opensea.io/api/v1/events?collection_slug=bit-birds&event_type=successful&limit=20')
 jsonResponse = r.json()
