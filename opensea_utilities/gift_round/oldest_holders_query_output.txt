@@ -1,0 +1,1104 @@
+>>python3 query_oldest.py
+
+
+---0---
+Bird: BitBird 0
+Num sales: 1
+Sale time: 2021-03-06T15:58:49
+Eth price: 0.05
+Buyer address: 0x5ba4dc752fdd165113198e194da2eb7c3db04fa2
+Buyer username: nan
+
+Unique #1
+
+
+
+
+---1---
+Bird: BitBird 69
+Num sales: 1
+Sale time: 2021-03-06T17:45:44
+Eth price: 0.05
+Buyer address: 0x75483bbcd1f7361c0b98551a94c9739eb0bf4319
+Buyer username: Hinky
+
+Unique #2
+
+
+
+
+---2---
+Bird: BitBird 433
+Num sales: 1
+Sale time: 2021-03-07T17:34:34
+Eth price: 0.05
+Buyer address: 0xf3cd85e2dfb46f1c5273bac542e78612faee22dd
+Buyer username: nan
+
+Unique #3
+
+
+
+
+---3---
+Bird: BitBird 446
+Num sales: 1
+Sale time: 2021-03-07T17:42:23
+Eth price: 0.05
+Buyer address: 0x0c7c3fe3ac6ea456f3cbca4a4dd649f8b17ba632
+Buyer username: LWAM
+
+Unique #4
+
+
+
+
+---4---
+Bird: BitBird 77
+Num sales: 1
+Sale time: 2021-03-07T17:46:26
+Eth price: 0.05
+Buyer address: 0xfef1b2dc9f48dcc68bf69020a563118e1563ab9a
+Buyer username: kubain
+
+Unique #5
+
+
+
+
+---5---
+Bird: BitBird 474
+Num sales: 1
+Sale time: 2021-03-07T18:06:15
+Eth price: 0.05
+Buyer address: 0x0c544f463600eb7d94b3694f3f3eb171c2f1a93c
+Buyer username: riverrunpasteveandadam
+
+Unique #6
+
+
+
+
+---6---
+Bird: BitBird 3
+Num sales: 1
+Sale time: 2021-03-07T18:30:26
+Eth price: 0.05
+Buyer address: 0x8bba2dadcd2763301dbe4dfbfd219c37ff13d635
+Buyer username: NateZ19
+
+Unique #7
+
+
+
+
+---7---
+Bird: BitBird 4
+Num sales: 1
+Sale time: 2021-03-07T20:18:10
+Eth price: 0.05
+Buyer address: 0x5492e0112e49e5fed0a7b1278c76df655e509a99
+Buyer username: ChrisR
+
+Unique #8
+
+
+
+
+---8---
+Bird: BitBird 7
+Num sales: 1
+Sale time: 2021-03-07T20:49:22
+Eth price: 0.05
+Buyer address: 0x30da0b4b5ac1386f3d706b655d9c8a2924ffaaf6
+Buyer username: nan
+
+Unique #9
+
+
+
+
+---9---
+Bird: BitBird 100
+Num sales: 1
+Sale time: 2021-03-07T21:01:25
+Eth price: 0.05
+Buyer address: 0x4f09de19035757063c22cf597686afff62d1513e
+Buyer username: nan
+
+Unique #10
+
+
+
+
+---10---
+Bird: BitBird 582
+Num sales: 1
+Sale time: 2021-03-07T21:08:31
+Eth price: 0.05
+Buyer address: 0x8a53b8b59877df193c6dae7b8d1d38251af563cf
+Buyer username: SerendipityIsMe
+
+Unique #11
+
+
+
+
+---11---
+Bird: BitBird 561
+Num sales: 1
+Sale time: 2021-03-07T21:09:46
+Eth price: 0.05
+Buyer address: 0x8a53b8b59877df193c6dae7b8d1d38251af563cf
+Buyer username: SerendipityIsMe
+
+Not unique
+
+
+
+
+---12---
+Bird: BitBird 451
+Num sales: 1
+Sale time: 2021-03-07T21:11:23
+Eth price: 0.05
+Buyer address: 0x8a53b8b59877df193c6dae7b8d1d38251af563cf
+Buyer username: SerendipityIsMe
+
+Not unique
+
+
+
+
+---13---
+Bird: BitBird 350
+Num sales: 1
+Sale time: 2021-03-07T21:19:06
+Eth price: 0.05
+Buyer address: 0x4f09de19035757063c22cf597686afff62d1513e
+Buyer username: nan
+
+Not unique
+
+
+
+
+---14---
+Bird: BitBird 391
+Num sales: 1
+Sale time: 2021-03-07T21:21:32
+Eth price: 0.05
+Buyer address: 0x8a53b8b59877df193c6dae7b8d1d38251af563cf
+Buyer username: SerendipityIsMe
+
+Not unique
+
+
+
+
+---15---
+Bird: BitBird 598
+Num sales: 1
+Sale time: 2021-03-07T21:30:38
+Eth price: 0.05
+Buyer address: 0x2f3a54bf279d3cdc31dd363e380c69346efd2d9d
+Buyer username: digiartwrx
+
+Unique #12
+
+
+
+
+---16---
+Bird: BitBird 477
+Num sales: 1
+Sale time: 2021-03-07T21:30:48
+Eth price: 0.05
+Buyer address: 0xa76573a000289f6341c48cf37ae1389c3a88e7b3
+Buyer username: MutinyBay
+
+Unique #13
+
+
+
+
+---17---
+Bird: BitBird 559
+Num sales: 1
+Sale time: 2021-03-08T07:50:28
+Eth price: 0.05
+Buyer address: 0x0c7c3fe3ac6ea456f3cbca4a4dd649f8b17ba632
+Buyer username: LWAM
+
+Not unique
+
+
+
+
+---18---
+Bird: BitBird 440
+Num sales: 1
+Sale time: 2021-03-08T08:47:00
+Eth price: 0.05
+Buyer address: 0x96236adb640ec620a85898378375cedf03ca21ff
+Buyer username: whyamIbuyingthis
+
+Unique #14
+
+
+
+
+---19---
+Bird: BitBird 187
+Num sales: 1
+Sale time: 2021-03-08T08:54:21
+Eth price: 0.05
+Buyer address: 0x96236adb640ec620a85898378375cedf03ca21ff
+Buyer username: whyamIbuyingthis
+
+Not unique
+
+
+
+
+---20---
+Bird: BitBird 443
+Num sales: 2
+Sale time: 2021-03-08T08:58:08
+Eth price: 0.25
+Buyer address: 0x96236adb640ec620a85898378375cedf03ca21ff
+Buyer username: whyamIbuyingthis
+
+Not unique
+
+
+
+
+---21---
+Bird: BitBird 522
+Num sales: 2
+Sale time: 2021-03-08T08:59:23
+Eth price: 0.2
+Buyer address: 0x96236adb640ec620a85898378375cedf03ca21ff
+Buyer username: whyamIbuyingthis
+
+Not unique
+
+
+
+
+---22---
+Bird: BitBird 251
+Num sales: 1
+Sale time: 2021-03-08T09:04:31
+Eth price: 0.05
+Buyer address: 0x96236adb640ec620a85898378375cedf03ca21ff
+Buyer username: whyamIbuyingthis
+
+Not unique
+
+
+
+
+---23---
+Bird: BitBird 155
+Num sales: 1
+Sale time: 2021-03-08T15:59:57
+Eth price: 0.05
+Buyer address: 0x4a6f894ccfe3f8dcb578a05c47f509346fbf8a20
+Buyer username: nav-eth
+
+Unique #15
+
+
+
+
+---24---
+Bird: BitBird 263
+Num sales: 1
+Sale time: 2021-03-09T06:11:40
+Eth price: 0.05
+Buyer address: 0xecf898e3a0f5dc4e4894dfbaae2e2b8303a8363b
+Buyer username: amwpk
+
+Unique #16
+
+
+
+
+---25---
+Bird: BitBird 222
+Num sales: 1
+Sale time: 2021-03-09T14:38:36
+Eth price: 0.05
+Buyer address: 0xcddee772926d631cadd0aa8f8033421c4fe55f10
+Buyer username: Unbeknown
+
+Unique #17
+
+
+
+
+---26---
+Bird: BitBird 608
+Num sales: 1
+Sale time: 2021-03-10T08:38:49
+Eth price: 0.05
+Buyer address: 0x47320b27870c9f7549180aa77b0f3bed292a8b1f
+Buyer username: NFTBUZZ
+
+Unique #18
+
+
+
+
+---27---
+Bird: BitBird 663
+Num sales: 2
+Sale time: 2021-03-10T14:12:52
+Eth price: 1.0
+Buyer address: 0x8dd934823b3b0cdfd0527ce2e60a7c76fe7b24d4
+Buyer username: Dabiri-NFTBirds
+
+Unique #19
+
+
+
+
+---28---
+Bird: BitBird 12
+Num sales: 1
+Sale time: 2021-03-10T18:07:52
+Eth price: 0.05
+Buyer address: 0x8387283e216f27aa9f695f3ccc2b138d2bc91415
+Buyer username: T0PHER
+
+Unique #20
+
+
+
+
+---29---
+Bird: BitBird 614
+Num sales: 1
+Sale time: 2021-03-10T18:14:19
+Eth price: 0.05
+Buyer address: 0x8387283e216f27aa9f695f3ccc2b138d2bc91415
+Buyer username: T0PHER
+
+Not unique
+
+
+
+
+---30---
+Bird: BitBird 302
+Num sales: 1
+Sale time: 2021-03-11T00:33:06
+Eth price: 0.05
+Buyer address: 0xa3807cead597afe0b4e24f6d2a04c8f77318dccc
+Buyer username: Okytomo
+
+Unique #21
+
+
+
+
+---31---
+Bird: BitBird 666
+Num sales: 1
+Sale time: 2021-03-11T01:43:57
+Eth price: 0.05
+Buyer address: 0xe03895df5be13994a01d4ea6e90ba723e873cb98
+Buyer username: nan
+
+Unique #22
+
+
+
+
+---32---
+Bird: BitBird 737
+Num sales: 1
+Sale time: 2021-03-11T02:31:23
+Eth price: 0.05
+Buyer address: 0x441a40c7174e1dc6fa894761d810ac2129c4881b
+Buyer username: octavia
+
+Unique #23
+
+
+
+
+---33---
+Bird: BitBird 109
+Num sales: 1
+Sale time: 2021-03-11T02:32:09
+Eth price: 0.05
+Buyer address: 0x0846931641992a70d393771b5d9a1ab8ad5b2f28
+Buyer username: trt
+
+Unique #24
+
+
+
+
+---34---
+Bird: BitBird 576
+Num sales: 1
+Sale time: 2021-03-11T02:53:20
+Eth price: 0.05
+Buyer address: 0x03009898ffd3361bb6b02b77d655f196ec82865e
+Buyer username: evan3017
+
+Unique #25
+
+
+
+
+---35---
+Bird: BitBird 257
+Num sales: 1
+Sale time: 2021-03-11T02:53:48
+Eth price: 0.05
+Buyer address: 0x1010595f96ab62b31bfeac411ec5f8f60db5dc23
+Buyer username: ajvchuk
+
+Unique #26
+
+
+
+
+---36---
+Bird: BitBird 718
+Num sales: 1
+Sale time: 2021-03-11T02:56:04
+Eth price: 0.05
+Buyer address: 0x03009898ffd3361bb6b02b77d655f196ec82865e
+Buyer username: evan3017
+
+Not unique
+
+
+
+
+---37---
+Bird: BitBird 740
+Num sales: 1
+Sale time: 2021-03-11T02:57:17
+Eth price: 0.05
+Buyer address: 0x03009898ffd3361bb6b02b77d655f196ec82865e
+Buyer username: evan3017
+
+Not unique
+
+
+
+
+---38---
+Bird: BitBird 641
+Num sales: 1
+Sale time: 2021-03-11T03:01:55
+Eth price: 0.05
+Buyer address: 0x2b0d29ffa81fa6bf35d31db7c3bc11a5913b45ef
+Buyer username: mg
+
+Unique #27
+
+
+
+
+---39---
+Bird: BitBird 10
+Num sales: 1
+Sale time: 2021-03-11T03:06:18
+Eth price: 0.05
+Buyer address: 0xe7e84204b7e180454e5c40d0e04d346214a83f85
+Buyer username: harper
+
+Unique #28
+
+
+
+
+---40---
+Bird: BitBird 619
+Num sales: 1
+Sale time: 2021-03-11T03:08:17
+Eth price: 0.05
+Buyer address: 0x060d19764de004b37aa64c088a0e55e8401a1041
+Buyer username: Beef31
+
+Unique #29
+
+
+
+
+---41---
+Bird: BitBird 15
+Num sales: 1
+Sale time: 2021-03-11T03:10:15
+Eth price: 0.05
+Buyer address: 0x060d19764de004b37aa64c088a0e55e8401a1041
+Buyer username: Beef31
+
+Not unique
+
+
+
+
+---42---
+Bird: BitBird 23
+Num sales: 1
+Sale time: 2021-03-11T03:13:17
+Eth price: 0.05
+Buyer address: 0x5bc39601a635ea0d3ed098a027edd14aa43f06bd
+Buyer username: KnicksFan
+
+Unique #30
+
+
+
+
+---43---
+Bird: BitBird 306
+Num sales: 1
+Sale time: 2021-03-11T03:15:31
+Eth price: 0.05
+Buyer address: 0x060d19764de004b37aa64c088a0e55e8401a1041
+Buyer username: Beef31
+
+Not unique
+
+
+
+
+---44---
+Bird: BitBird 144
+Num sales: 1
+Sale time: 2021-03-11T03:47:48
+Eth price: 0.05
+Buyer address: 0x1a2a2d0f5d20209d159cbc24fe45b90c5357a241
+Buyer username: HOF
+
+Unique #31
+
+
+
+
+---45---
+Bird: BitBird 145
+Num sales: 2
+Sale time: 2021-03-11T03:55:45
+Eth price: 0.1
+Buyer address: 0x1a2a2d0f5d20209d159cbc24fe45b90c5357a241
+Buyer username: HOF
+
+Not unique
+
+
+
+
+---46---
+Bird: BitBird 422
+Num sales: 2
+Sale time: 2021-03-11T03:58:12
+Eth price: 0.1
+Buyer address: 0x1a2a2d0f5d20209d159cbc24fe45b90c5357a241
+Buyer username: HOF
+
+Not unique
+
+
+
+
+---47---
+Bird: BitBird 470
+Num sales: 2
+Sale time: 2021-03-11T04:01:54
+Eth price: 0.1
+Buyer address: 0x1a2a2d0f5d20209d159cbc24fe45b90c5357a241
+Buyer username: HOF
+
+Not unique
+
+
+
+
+---48---
+Bird: BitBird 323
+Num sales: 1
+Sale time: 2021-03-11T04:04:31
+Eth price: 0.05
+Buyer address: 0x1a2a2d0f5d20209d159cbc24fe45b90c5357a241
+Buyer username: HOF
+
+Not unique
+
+
+
+
+---49---
+Bird: BitBird 549
+Num sales: 1
+Sale time: 2021-03-11T04:05:56
+Eth price: 0.05
+Buyer address: 0x1a2a2d0f5d20209d159cbc24fe45b90c5357a241
+Buyer username: HOF
+
+Not unique
+
+
+
+
+---50---
+Bird: BitBird 34
+Num sales: 1
+Sale time: 2021-03-11T04:07:50
+Eth price: 0.05
+Buyer address: 0x1a2a2d0f5d20209d159cbc24fe45b90c5357a241
+Buyer username: HOF
+
+Not unique
+
+
+
+
+---51---
+Bird: BitBird 696
+Num sales: 1
+Sale time: 2021-03-11T04:12:41
+Eth price: 0.05
+Buyer address: 0x1a2a2d0f5d20209d159cbc24fe45b90c5357a241
+Buyer username: HOF
+
+Not unique
+
+
+
+
+---52---
+Bird: BitBird 272
+Num sales: 1
+Sale time: 2021-03-11T04:23:28
+Eth price: 0.05
+Buyer address: 0x42f04c45e96be43e6069f84a713e31fff694c8a2
+Buyer username: dvn
+
+Unique #32
+
+
+
+
+---53---
+Bird: BitBird 184
+Num sales: 1
+Sale time: 2021-03-11T04:23:31
+Eth price: 0.05
+Buyer address: 0x00704c43441edc843ce72077cc5756ea7fdc2bf0
+Buyer username: hornokplease
+
+Unique #33
+
+
+
+
+---54---
+Bird: BitBird 465
+Num sales: 2
+Sale time: 2021-03-11T04:43:29
+Eth price: 0.3
+Buyer address: 0x42f04c45e96be43e6069f84a713e31fff694c8a2
+Buyer username: dvn
+
+Not unique
+
+
+
+
+---55---
+Bird: BitBird 552
+Num sales: 1
+Sale time: 2021-03-11T05:34:10
+Eth price: 0.05
+Buyer address: 0x453510d0d18d0a0ae95b5c98f7695226cd97df95
+Buyer username: Jumper11
+
+Unique #34
+
+
+
+
+---56---
+Bird: BitBird 643
+Num sales: 1
+Sale time: 2021-03-11T07:16:20
+Eth price: 0.05
+Buyer address: 0xde270dd37103351cd45610539648ff9d0b32bb50
+Buyer username: jw
+
+Unique #35
+
+
+
+
+---57---
+Bird: BitBird 512
+Num sales: 1
+Sale time: 2021-03-11T07:26:43
+Eth price: 0.05
+Buyer address: 0xde270dd37103351cd45610539648ff9d0b32bb50
+Buyer username: jw
+
+Not unique
+
+
+
+
+---58---
+Bird: BitBird 560
+Num sales: 2
+Sale time: 2021-03-11T12:37:00
+Eth price: 0.09
+Buyer address: 0x1a2a2d0f5d20209d159cbc24fe45b90c5357a241
+Buyer username: HOF
+
+Not unique
+
+
+
+
+---59---
+Bird: BitBird 218
+Num sales: 1
+Sale time: 2021-03-11T13:33:03
+Eth price: 0.05
+Buyer address: 0x7d7ea735b7287d844c3a9312bc1114c6131781d0
+Buyer username: AnonymousPenguin
+
+Unique #36
+
+
+
+
+---60---
+Bird: BitBird 426
+Num sales: 1
+Sale time: 2021-03-11T13:33:03
+Eth price: 0.05
+Buyer address: 0x7d7ea735b7287d844c3a9312bc1114c6131781d0
+Buyer username: AnonymousPenguin
+
+Not unique
+
+
+
+
+---61---
+Bird: BitBird 157
+Num sales: 1
+Sale time: 2021-03-11T14:37:25
+Eth price: 0.05
+Buyer address: 0x755bf4014d228dfeccb3c39db5f51a85c5bb69a2
+Buyer username: nan
+
+Unique #37
+
+
+
+
+---62---
+Bird: BitBird 543
+Num sales: 1
+Sale time: 2021-03-11T14:44:52
+Eth price: 0.05
+Buyer address: 0x5cd16d76f4394a8a06c4322d76de0409323831b5
+Buyer username: RH2727
+
+Unique #38
+
+
+
+
+---63---
+Bird: BitBird 571
+Num sales: 1
+Sale time: 2021-03-11T15:01:13
+Eth price: 0.05
+Buyer address: 0x5cd16d76f4394a8a06c4322d76de0409323831b5
+Buyer username: RH2727
+
+Not unique
+
+
+
+
+---64---
+Bird: BitBird 411
+Num sales: 1
+Sale time: 2021-03-11T16:16:08
+Eth price: 0.05
+Buyer address: 0xcddee772926d631cadd0aa8f8033421c4fe55f10
+Buyer username: Unbeknown
+
+Not unique
+
+
+
+
+---65---
+Bird: BitBird 1
+Num sales: 2
+Sale time: 2021-03-11T17:24:49
+Eth price: 0.2
+Buyer address: 0x42f04c45e96be43e6069f84a713e31fff694c8a2
+Buyer username: dvn
+
+Not unique
+
+
+
+
+---66---
+Bird: BitBird 70
+Num sales: 1
+Sale time: 2021-03-11T18:28:17
+Eth price: 0.05
+Buyer address: 0xde89db35d4aaa281904faccf48033a66003ea50d
+Buyer username: KingTut29
+
+Unique #39
+
+
+
+
+---67---
+Bird: BitBird 70
+Num sales: 1
+Sale time: 2021-03-11T18:28:23
+Eth price: 0.05
+Buyer address: 0xde89db35d4aaa281904faccf48033a66003ea50d
+Buyer username: KingTut29
+
+Not unique
+
+
+
+
+---68---
+Bird: BitBird 429
+Num sales: 1
+Sale time: 2021-03-11T18:39:23
+Eth price: 0.05
+Buyer address: 0xdf5edabd1530e79fc48e356dd62295b2a3c35e40
+Buyer username: jawilla
+
+Unique #40
+
+
+
+
+---69---
+Bird: BitBird 27
+Num sales: 1
+Sale time: 2021-03-11T19:21:48
+Eth price: 0.05
+Buyer address: 0x0e63d7e489363028e23a6da417d5767f9e399246
+Buyer username: Gluckworks
+
+Unique #41
+
+
+
+
+---70---
+Bird: BitBird 18
+Num sales: 1
+Sale time: 2021-03-11T19:34:21
+Eth price: 0.05
+Buyer address: 0xfe35e15be885750d9b2363cbb6abdd57ac9c4c40
+Buyer username: gtmcknight
+
+Unique #42
+
+
+
+
+---71---
+Bird: BitBird 527
+Num sales: 1
+Sale time: 2021-03-11T20:05:03
+Eth price: 0.05
+Buyer address: 0x3d932418d984d94e09d48b2acc863d200ec763ef
+Buyer username: scsuhockey10
+
+Unique #43
+
+
+
+
+---72---
+Bird: BitBird 188
+Num sales: 2
+Sale time: 2021-03-11T20:16:10
+Eth price: 0.1
+Buyer address: 0xda4d6c8cf48e7c473ef7bb3ace63a5b586598b56
+Buyer username: DiamondDanny
+
+Unique #44
+
+
+
+
+---73---
+Bird: BitBird 339
+Num sales: 1
+Sale time: 2021-03-11T20:28:43
+Eth price: 0.05
+Buyer address: 0x1dabc3b1e6e6878fea60f9d9799b1cfdbb9d6aef
+Buyer username: RareBehavior
+
+Unique #45
+
+
+
+
+---74---
+Bird: BitBird 42
+Num sales: 1
+Sale time: 2021-03-11T20:38:24
+Eth price: 0.042
+Buyer address: 0x8dd934823b3b0cdfd0527ce2e60a7c76fe7b24d4
+Buyer username: Dabiri-NFTBirds
+
+Not unique
+
+
+
+
+---75---
+Bird: BitBird 342
+Num sales: 1
+Sale time: 2021-03-11T20:45:15
+Eth price: 0.05
+Buyer address: 0x09c34af24759281d4a078bc57c504e96eb912427
+Buyer username: RebelSpy
+
+Unique #46
+
+
+
+
+---76---
+Bird: BitBird 14
+Num sales: 1
+Sale time: 2021-03-11T20:50:11
+Eth price: 0.05
+Buyer address: 0x3db5f43c538a680280f3e699fc7340008f327ff2
+Buyer username: -_-_-_-_-_-
+
+Unique #47
+
+
+
+
+---77---
+Bird: BitBird 279
+Num sales: 1
+Sale time: 2021-03-11T21:17:28
+Eth price: 0.05
+Buyer address: 0xe9581fb58eb6fdcbd45fcba793149bab6b0e0c4b
+Buyer username: Lefko
+
+Unique #48
+
+
+
+
+---78---
+Bird: BitBird 642
+Num sales: 1
+Sale time: 2021-03-11T21:46:31
+Eth price: 0.05
+Buyer address: 0x63502d4e47b83f8966c687ccdb0f7c56faf691d5
+Buyer username: NFTMainer
+
+Unique #49
+
+
+
+
+---79---
+Bird: BitBird 299
+Num sales: 1
+Sale time: 2021-03-11T22:56:11
+Eth price: 0.05
+Buyer address: 0x1dabc3b1e6e6878fea60f9d9799b1cfdbb9d6aef
+Buyer username: RareBehavior
+
+Not unique
+
+
+
+
+---80---
+Bird: BitBird 760
+Num sales: 1
+Sale time: 2021-03-11T23:15:05
+Eth price: 0.1
+Buyer address: 0x8387283e216f27aa9f695f3ccc2b138d2bc91415
+Buyer username: T0PHER
+
+Not unique
+
+
+
+
+---81---
+Bird: BitBird 777
+Num sales: 1
+Sale time: 2021-03-11T23:21:26
+Eth price: 0.1
+Buyer address: 0xde89db35d4aaa281904faccf48033a66003ea50d
+Buyer username: KingTut29
+
+Not unique
+
+
+
+
+---82---
+Bird: BitBird 779
+Num sales: 1
+Sale time: 2021-03-11T23:25:57
+Eth price: 0.1
+Buyer address: 0x09c34af24759281d4a078bc57c504e96eb912427
+Buyer username: RebelSpy
+
+Not unique
+
+
+
+
+---83---
+Bird: BitBird 781
+Num sales: 1
+Sale time: 2021-03-11T23:25:57
+Eth price: 0.1
+Buyer address: 0x09c34af24759281d4a078bc57c504e96eb912427
+Buyer username: RebelSpy
+
+Not unique
+
+
+
+
+---84---
+Bird: BitBird 415
+Num sales: 1
+Sale time: 2021-03-11T23:36:02
+Eth price: 0.05
+Buyer address: 0x6096477b065755a0c6522652458b19073c40f296
+Buyer username: NFTfrank
+
+Unique #50
