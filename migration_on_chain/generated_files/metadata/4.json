@@ -1,0 +1,19 @@
+{
+    "name": 4,
+    "description": "None",
+    "image": "test",
+    "attributes": [
+        {
+            "trait_type": "Bird Type",
+            "value": "Basic"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Normal"
+        },
+        {
+            "trait_type": "Beak",
+            "value": "Gold"
+        }
+    ]
+}
