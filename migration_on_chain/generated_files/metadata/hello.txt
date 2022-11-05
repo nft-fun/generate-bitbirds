@@ -1,0 +1,1 @@
+The generated_files and metadata folders are expected by the script at runtime, this file will hold them in place as part of the github repo.
