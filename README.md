@@ -54,7 +54,7 @@ From there, you're just about home free. The final bit of the loop re-sizes the 
 Then it goes right back to the top of the loop, and does it again for the next bird, until the number of defined loops is completed. 
 
 # Wrap up
-I sincerely hope this inspires someone to learn a new skill, take up coding, or generally expand their horizons! I won't profess to be a professional coder, but I am a technologist in my day job and have found it to be a fulfilling and rewarding life path.  This BitBirds project has been a joy to be involved in. The community that has popped up around it already has been inspiring, and I'm excited to see it grow in the years to come.
+I sincerely hope this inspires someone to learn a new skill, take up coding, or generally expand their horizons! I won't profess to be a professional coder, but I am a technologist in my day job and have found it to be a fulfilling and rewarding life path.  This NFTBirds project has been a joy to be involved in. The community that has popped up around it already has been inspiring, and I'm excited to see it grow in the years to come.
 
 If would like to show your thanks for this shared asset I'd encourage you to plant some trees! https://onetreeplanted.org/collections/all
 
