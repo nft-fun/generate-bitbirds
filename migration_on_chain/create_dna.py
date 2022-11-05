@@ -28,7 +28,8 @@ with open(('./generated_files/summary.csv'), 'w', newline='') as csvfile:
     writer.writerow( ['Number'] + ['OS Name'] + ['OS Token ID'] + ['DNA'] + ['Description'])
  
     # Loops once per bird
-    for i in range(0,1499):
+    for i in range(0,1500):
+    # for i in range(415,430):
         
         if i != 423:
 
@@ -76,4 +77,13 @@ with open(('./generated_files/summary.csv'), 'w', newline='') as csvfile:
 
         else:
             print(f'{bcolors.WARNING}\n\n--- i=423 ... skipping ---\n\n{bcolors.ENDC}')
+
+
+
+
+
+
+
+
+
 

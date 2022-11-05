@@ -25,7 +25,7 @@ class bcolors:
 #     }
 
 
-mode = 'log'
+mode = 'clean'
 
 
 # Processes the csv to useful variables, eyes>final_eyes, beak>gen-script
@@ -47,7 +47,11 @@ def process_csv(i,data):
 
 # Creates a binary trait from a 0-255 input number
 def create_bin_trait(trait_num):
-    # print(f'working on binary DNA for trait {trait_num}')
+    if mode == 'log':
+        print(f'working on binary DNA for trait {trait_num}')
+    if int(trait_num) == 256:
+        print(f'{bcolors.FAIL} TRAIT IS 256{bcolors.ENDC}')
+        trait_num = 0
     bin_dna = bin(int(trait_num))
     # print(bin_dna)
     bin_dna_string = bin_dna.replace("0b","").zfill(8)
@@ -163,7 +167,11 @@ def create_throat_traits(th_rgb):
 # Queries OpenSea to get original OS tokenID
 def query_opensea(i, headers):
     time.sleep(1)
-    url = f'https://api.opensea.io/api/v1/assets?collection=bit-birds&order_direction=asc&offset={i}&limit=1'
+    if i > 422:
+        offset = i-1
+    else:
+        offset=i
+    url = f'https://api.opensea.io/api/v1/assets?collection=bit-birds&order_direction=asc&offset={offset}&limit=1'
     if mode == 'log':
         print(url)
     r = requests.get(url , headers=headers)
