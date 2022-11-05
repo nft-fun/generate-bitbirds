@@ -1,4 +1,4 @@
-# BitBirds generation script
+# NFTBirds generation script
 # Intro
 This is published under MIT license, which means you can do whatever you want with it - entirely at your own risk.
 
