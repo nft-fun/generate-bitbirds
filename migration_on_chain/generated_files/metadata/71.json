@@ -1,0 +1,23 @@
+{
+    "name": 71,
+    "description": "None",
+    "image": "test",
+    "attributes": [
+        {
+            "trait_type": "Bird Type",
+            "value": "Eagle"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Normal"
+        },
+        {
+            "trait_type": "Beak",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "Special",
+            "value": "Glitch Collection"
+        }
+    ]
+}
