@@ -1,0 +1,19 @@
+{
+    "name": 404,
+    "description": "404 Not Found",
+    "image": "test",
+    "attributes": [
+        {
+            "trait_type": "Bird Type",
+            "value": "Jay"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Normal"
+        },
+        {
+            "trait_type": "Beak",
+            "value": "Red"
+        }
+    ]
+}
